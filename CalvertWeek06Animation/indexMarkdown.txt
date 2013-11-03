@@ -1,0 +1,14 @@
+My Introduction to Javascript Animation
+=======================================
+
+My Past Experiences
+-------------------
+
+I have been familiar with animated gifs for a long time. I have a mixture of feelings about them. On the one hand, I find them very cute, and love to browse through a Web site offering animated pictures. On the other hand, it is hard to work them into a Web site. Somehow I don't feel that anyone will take what I have to say very seriously, once they have seen my choice of animated leprechauns and elves and Santas. And frogs.
+
+My New Perspective
+------------------
+
+Now I can see how I could design a discreet logo that shifts very slightly over time. Or I could create a shimmer effect for a large area of a Web page. Or I could have a thin ribbon of color that just looked cool as it shifted slowly from one hue to another. With this technology, I could shift all of the images on the page slowly, in a coordinated way, over time. There are so many cool possibilities. 
+
+The Cheshire cat could slowly appear and disappear. Oh, very cool.
