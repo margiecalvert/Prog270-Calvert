@@ -1,0 +1,14 @@
+ Volume in drive C is Windows
+ Volume Serial Number is 9261-D79F
+
+ Directory of C:\Users\Margie\Documents\GitHub\Prog270-Calvert\Week08-GitPractice
+
+11/12/2013  05:54 PM                 0 Test01.md
+11/12/2013  05:55 PM                 0 Test02.md
+11/12/2013  06:27 PM    <DIR>          images
+11/12/2013  06:35 PM               372 Lubuntu.txt
+11/12/2013  06:38 PM    <DIR>          ..
+11/12/2013  06:38 PM                 0 Windows.txt
+11/12/2013  06:38 PM    <DIR>          .
+               4 File(s)            372 bytes
+               3 Dir(s)  519,329,210,368 bytes free
