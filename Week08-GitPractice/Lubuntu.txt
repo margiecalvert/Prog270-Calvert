@@ -1,0 +1,7 @@
+total 12
+drwxrwxr-x  3 adminuser adminuser 4096 Nov 12 21:28 .
+drwxrwxr-x 12 adminuser adminuser 4096 Nov 12 21:19 ..
+drwxrwxr-x  2 adminuser adminuser 4096 Nov 12 21:19 images
+-rw-rw-r--  1 adminuser adminuser    0 Nov 12 21:28 Lubuntu.txt
+-rw-rw-r--  1 adminuser adminuser    0 Nov 12 21:19 Test01.md
+-rw-rw-r--  1 adminuser adminuser    0 Nov 12 21:19 Test02.md
