@@ -15,7 +15,7 @@
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 		<script src="angular.js"></script>
 		<script src="angular-resource.js"></script>
-		<script src="MongoData.js"></script>
+		<script src="margieData.js"></script>
 		<script src="Server.js"></script>
 		<script src="index.js"></script>
 	</head>
@@ -73,16 +73,16 @@
 							a node server.
 						</p>
 						<p>
-							Rows in DB: {{presidentsLength}}
+							Rows in DB: {{prog270Length}}
 						</p>
 						<ul>
 							<li ng-repeat="president in presidents">
 								<p>
-									{{president.getPresidentName()}}
+									{{Prog270.getPresidentName()}}
 									<br/>
-									TermStart: {{president.getTermStart()}}
+									TermStart: {{Prog270.getTermStart()}}
 									<br/>
-									TermEnd: {{president.getTermEnd()}}
+									TermEnd: {{Prog270.getTermEnd()}}
 								</p>
 							</li>
 						</ul>
