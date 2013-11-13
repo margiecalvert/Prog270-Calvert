@@ -77,13 +77,11 @@
 						</p>
 						<ul>
 							<li ng-repeat="president in presidents">
-								<p>
-									{{Prog270.getPresidentName()}}
+								{{president.getPresidentName()}}
 									<br/>
-									TermStart: {{Prog270.getTermStart()}}
+									TermStart: {{president.getTermStart()}}
 									<br/>
-									TermEnd: {{Prog270.getTermEnd()}}
-								</p>
+									TermEnd: {{president.getTermEnd()}}
 							</li>
 						</ul>
 						<div ng-bind-html-unsafe="hint"></div>
