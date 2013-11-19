@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<html ng-app="elvenApp">
+	<head>
+		<meta charset="utf-8" />
+		<title>Elven Bootstrap02</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="favicon.png">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.css">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
+		<link href="Carousel.css" rel="stylesheet" type="text/css" />
+		<!-- Latest compiled and minified JavaScript - Move to bottom of body element -->
+		<script src="//code.jquery.com/jquery.js"></script>
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+		<script src="angular.js"></script>
+		<script src="angular-resource.js"></script>
+		<script src="MongoData.js"></script>
+	</head>
+	<body>
+		
+		<!-- Nav Bar 
+		================================================== -->
+		
+		<div class="navbar-wrapper">
+      	<div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+              </button>
+              <a class="navbar-brand" href="#">Symbology</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="Pictures.html">Pictures</a></li>
+                <li><a href="About.html">About</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Pictures.html">Pictures</a></li>
+                    <li><a href="About.html">About</a></li>                    
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+		</div>
+		</div> <!-- Navbar wrapper -->
+
+
+		<!-- Carousel
+		================================================== -->
+		<div id="myCarousel" class="carousel slide">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="FlyerGreen.png" alt="First slide">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>Alpha</h1>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<img src="FlyerPurple.png" alt="Second slide">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>Phi</h1>
+
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<img src="FlyerBlue.png" alt="Third slide">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>Psi</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		</div><!-- /.carousel -->
+
+		<!-- Marketing messaging and featurettes
+		================================================== -->
+		<!-- Wrap the rest of the page in another container to center all the content. -->
+
+		<div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Alpha_lowercase.svg/240px-Alpha_lowercase.svg.png" alt="Generic placeholder image">
+          <h2>Alpha</h2>
+          <p>The Greek glyph, Alpha, has a mystical look. It, with the letter omega, was used to represent Christ.</p>
+          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="http://upload.wikimedia.org/wikipedia/commons/9/96/Greek_letter_uppercase_Phi.svg" alt="Generic placeholder image">
+          <h2>Phi</h2>
+          <p>The Phi also looks as if it has meaning beyond that of a letter of the alphabet. Phi was used by the Greeks to represent that golden number, 1.618.</p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Psi2.svg/200px-Psi2.svg.png" alt="Generic placeholder image">
+          <h2>Psi</h2>
+          <p>Psi has many connotations, including: psychology, psychiatry, the paranormal, the Fibonacci constant, pharmacology, and the Gangster Disciples, among other things.</p>
+          <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+	</div>
+
+		
+			<!-- FOOTER -->
+			<footer>
+				<p class="pull-right"><a href="#">Back to top</a></p>
+				<p>&copy; 2013 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+			</footer>
+
+		</div><!-- /.container -->
+
+	</body>
+</html>
