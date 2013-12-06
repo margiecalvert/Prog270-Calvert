@@ -1,0 +1,46 @@
+/**red for small screens**/
+
+/**@media all and (max-width: 300px) and (min-width: 10px) {**/
+
+	body {
+		background-color: #d13232;
+		color: #004400;
+	}
+
+	header {
+		background-color: #cc0808;
+		color: black;
+	}
+
+	article {
+		background-color: #911212;
+		color: black;
+	}
+
+	p {
+
+		font-size: large;
+	}
+
+	.position01 {
+		width: 50px;
+		height: 50px;
+		background-color: #ff0000;
+		font-weight: bold;
+	}
+
+	.position02 {
+		width: 50px;
+		height: 50px;
+		background-color: #e07979;
+		font-weight: bold;
+	}
+
+	.position03 {
+		width: 50px;
+		height: 50px;
+		background-color: #9b6f6f;
+		font-weight: bold;
+	}
+
+/**}**/
